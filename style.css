@@ -1,11 +1,11 @@
  :root {
       --primary: #2563eb;
       --accent: #38bdf8;
-      --bg-light: #f0f4f8;
-      --bg-dark: #1e293b;
+      --bg-light: #162636;
+      --bg-dark: #c2dbf3;
       --text-light: #0f172a;
       --text-dark: #f8fafc;
-      --card-light: rgba(255, 255, 255, 0.9);
+      --card-light: rgba(169, 199, 235, 0.9);
       --card-dark: rgba(30, 41, 59, 0.9);
     }
 
@@ -29,7 +29,7 @@
 
     .container {
       max-width: 480px;
-      margin: 50px auto;
+      margin: 10px auto;
       padding: 32px;
       background: var(--card-light);
       border-radius: 24px;
@@ -89,7 +89,7 @@
 
     .weather-icon {
       width: 100px;
-      margin: 20px auto 10px;
+      margin: 2px auto 0px;
       filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.2));
     }
 
@@ -112,7 +112,7 @@
     }
 
     .forecast {
-      margin-top: 24px;
+      margin-top: 20px;
       display: flex;
       overflow-x: auto;
       gap: 14px;
@@ -127,7 +127,7 @@
     .forecast-item {
       min-width: 80px;
       background: rgba(255, 255, 255, 0.15);
-      padding: 10px;
+      padding: 5px;
       border-radius: 14px;
       text-align: center;
       color: inherit;
